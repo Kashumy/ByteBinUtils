@@ -9,8 +9,12 @@ git clone https://github.com/Kashumy/ByteBinUtils/tree/main
 
 BshBin output 
 
-https://kashumy.github.io/ByteBinUtils/ 
 
+> https://kashumy.github.io/ByteBinUtils/ 
+
+📜discusion
+
+> https://github.com/Kashumy/ByteBinUtils/discussions/2
 
 
 
