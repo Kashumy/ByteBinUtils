@@ -21,7 +21,7 @@ git clone https://github.com/Kashumy/ByteBinUtils.git
 
 You can visit the starter page for BshBin at:
 
-- [BshBin Hello Geometry Page #1](https://kashumy.github.io/ByteBinUtils/)
+- [BshBin Hello Geometry Page (#1)](https://kashumy.github.io/ByteBinUtils/)
 
 ## Discussion
 
