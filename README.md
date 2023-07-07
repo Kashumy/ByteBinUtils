@@ -11,6 +11,8 @@ ByteBinUtils is an experimental programming language for :
 6. (comming soon) Math calculations variables
 7. (comming soon) logic if elseif else
 8. making color full graphick
+9. compiling to html
+10. (?) more compilers
 
 
 ## Clone
