@@ -10,11 +10,11 @@ git clone https://github.com/Kashumy/ByteBinUtils/tree/main
 BshBin output 
 
 
-> https://kashumy.github.io/ByteBinUtils/ 
+> https://kashumy.github.io/ByteBinUtils/   <- starter page BshBin
 
 📜discusion
 
-> https://github.com/Kashumy/ByteBinUtils/discussions/2
+> https://github.com/Kashumy/ByteBinUtils/discussions/2  <- bugs , join , question , concept 
 
 
 
