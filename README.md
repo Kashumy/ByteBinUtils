@@ -17,7 +17,7 @@ ByteBinUtils is an experimental programming language for :
 git clone https://github.com/Kashumy/ByteBinUtils.git
 ```
 # learn BshBin lang
- - [Tutorial (#1)](https://github.com/Kashumy/ByteBinUtils/blob/main/BshBIN.md)
+ - [Tutorial pl. (#1)](https://github.com/Kashumy/ByteBinUtils/blob/main/BshBIN.md)
 
 ## BshBin Output
 
