@@ -1,5 +1,15 @@
 # ByteBinUtils
-ByteBinUtils is an experimental programming language for handling binary data.
+ByteBinUtils is an experimental programming language for :
+
+1. drawing things like geometries
+2. making functions
+3. (comming soon) alghoritms
+4. (comming soon) animations
+5. Printing text
+6. (comming soon) Math calculations variables
+7. (comming soon) logic if elseif else
+8. making color full graphick
+
 
 ## Clone
 
