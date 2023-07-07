@@ -1,6 +1,10 @@
 # ByteBinUtils
 - `experimental progrming language` 
+## Clone
 
+````
+git clone https://github.com/Kashumy/ByteBinUtils/tree/main
+````
 
 🧾  License BshBin development of experiments 
 
