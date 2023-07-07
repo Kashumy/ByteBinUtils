@@ -1,0 +1,28 @@
+# @USING <compiler>
+# ^~~ active the compiler you can compile this to html
+Title[""]
+@USING <bsh/void>
+@USING <end>
+@USING <fs>
+in bg [
+rBoxL(0,0,100,100,402)
+]
+#
+bg out
+#
+Circle(41,51,90,100,255)
+Box(50,74,58,77,20)
+Box(72,74,81,77,20)
+Box(50,85,81,88,20)
+#
+Trg(100,30,150,80,255,90)
+#
+Box(170,51,220,101,255)
+#
+Print(" ")
+Print(" ")
+Print(" ")
+Print(" ")
+Print(" ")
+Print(" ")
+Print("          Geometry :)")

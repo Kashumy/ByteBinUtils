@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  
+  
+  
+  <script>
+  
+  
+    onload = function (){
+      document.querySelector('html').style.background ="#000 "
+    }
+
+    
+    
+    
+  </script>
+
+    
+<div id="bootcompiler" style="display:none ;position:absolute;z-index:9999; top:0;left:0;height:100vh;width:100vw;background :rgba(0,0,0,1) ;color:rgba(255,255,255,1)  ;font-size:10px; overflow :hidden ;height :100%; overflow :scroll ;" >
+  <pre id="hze" style="white-space: pre-wrap; margin: 10px;  overflow :scroll ; user-select :all ;">
+<div style="position: relative ;margin-left :-40px; display: inline-block;"><img style="width: 100px; height: 100px;" src="/bsd.png" alt="">
+  <div style="position: absolute; top: -15%; left: 120%; transform: translateX(-50%,-30%); font-size:30px; color: white; text-align: center;">BshBin Compiler</div>
+</div>
+
+
+</pre>
+<pre id="cml" style="white-space :pre-wrap ;" >
+
+</pre>
+</div>
+
+
+<script>
+var element1 = document.querySelector('#bootcompiler');
+var element = document.querySelector('#hze');
+var element2 = document.querySelector('#cml');
+function getRandomDelay(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+
+function build(){
+
+var projfjnwjbehjx=0;
+// Funkcja generująca losowe opóźnienie w zadanym zakresie
+
+// Wykonywanie pierwszej operacji
+element.innerHTML += `
+<stroke style="color: lime;">[</stroke>+<stroke style="color: lime;">]</stroke> compiling script 
+`;
+
+  
+
+
+for (let i = 0; i < 10; i++) {
+  setTimeout(function() {
+    projfjnwjbehjx+=10
+    element.innerHTML += `
+  <stroke style="color: lime;">[</stroke>-<stroke style="color: lime;">]</stroke> in progress ${((projfjnwjbehjx))}%`;
+  }, getRandomDelay(0, 2000)); // Losowe opóźnienie w zakresie od 0 do 2000 ms
+}
+
+// Wykonywanie kolejnej operacji po zakończeniu pętli z losowym opóźnieniem
+setTimeout(function() {
+  element.innerHTML += `
+  
+    <stroke style="color: lime;">[</stroke>+<stroke style="color: lime;">]</stroke> well done
+  `;
+
+  setTimeout(function() {
+    for (let i = 0; i < 10; i++) {
+      setTimeout(function() {
+        if(i==1){
+        element.innerHTML += `
+            <stroke style="color: lime;">[</stroke>-<stroke style="color: lime;">]</stroke> waiting for headers`;
+        }
+        if (i == 2) {
+          element.innerHTML += `
+            <stroke style="color: lime;">[</stroke>-<stroke style="color: lime;">]</stroke> waiting for files`;
+        }
+        if (i > 2 && i < 5) {
+          element.innerHTML += `
+            <stroke style="color: lime;">[</stroke>-<stroke style="color: lime;">]</stroke> loading cmd`;
+        }
+        if (i > 5) {
+          element.innerHTML += `
+            <stroke style="color: lime;">[</stroke>-<stroke style="color: lime;">]</stroke> waiting for rom`;
+        }
+      }, getRandomDelay(0, 2000)); // Losowe opóźnienie w zakresie od 0 do 2000 ms
+    }
+    setTimeout(function() {
+          element.innerHTML += `
+          
+        <stroke style="color: lime;">[</stroke>+<stroke style="color: lime;">]</stroke> Compiling ...
+      `;
+    
+          setTimeout(function() {
+            for (let i = 0; i < getRandomDelay(100, 500); i++) {
+              setTimeout(function() {
+                element.innerHTML += `
+        <stroke style="color: lime;">[</stroke>-<stroke style="color: lime;">]</stroke> install ${Math.floor(Math.random()*2*Math.random()*200*Math.random()*400)}.dat    [ over ]`;
+        element1.scrollBy(0,20)
+              }, getRandomDelay(0, 1000)); // Losowe opóźnienie w zaksie od 0 do 2000 ms
+              
+            }
+          }, getRandomDelay(2000, 8000)); // Losowe opóźnienie przed rozpoczęciem pętli "wait"
+          setTimeout(function() {
+element.innerHTML += `
+
+          <stroke style="color: lime;">[</stroke>^<stroke style="color: lime;">]</stroke> finding errors
+  
+`;
+            for (let i = 0; i < getRandomDelay(50, 200); i++) {
+              setTimeout(function() {
+                element.innerHTML += `
+       <stroke style="color: lime;">[</stroke>-<stroke style="color: lime;">]</stroke> over ${Math.floor(Math.random()*99999999)} dat`;
+                element1.scrollBy(0, 20)
+              }, getRandomDelay(20, 8000)); // Losowe opóźnienie w zaksie od 0 do 2000 ms
+          
+            }
+            setTimeout(function (){
+              element.innerHTML += `
+       <stroke style="color: lime;">[</stroke>/<stroke style="color: lime;">]</stroke> 0x0A `;
+            },2000)
+            setTimeout(function() {
+              element.innerHTML += `
+       <stroke style="color: lime;">[</stroke>/<stroke style="color: lime;">]</stroke> 0xAA `;
+            }, 3000)
+            setTimeout(function() {
+              element.innerHTML += `
+       <stroke style="color: lime;">[</stroke>/<stroke style="color: lime;">]</stroke> 0x0B `;
+            }, 4000)
+            setTimeout(function() {
+              element.innerHTML += `
+       <stroke style="color: lime;">[</stroke>/<stroke style="color: lime;">]</stroke> 0xBN `;
+            }, 5000)
+            setTimeout(function() {
+              element.innerHTML += `
+       <stroke style="color: lime;">[</stroke>/<stroke style="color: lime;">]</stroke> 0x0C `;
+            }, 6000)
+            setTimeout(function() {
+              element.innerHTML += `
+              
+
+      <stroke style="color: lime;">[</stroke>><stroke style="color: lime;">]</stroke> Program loaded `;
+
+
+
+
+
+
+element1.scrollBy(0, 200)
+            }, 10000)
+            setTimeout(function() {
+              element.innerHTML =""
+              element2.innerHTML = `
+  <hj style="color:aqua;"> 
+   HelloWorld 
+   Welcome in BshBin Compiler terminal emulator 
+
+     [?](help)
+
+</hj>
+  <stroke style="color: lime;">></stroke><input id="cmd" style="border:none; background : transparent ; color:white; outline :none;  type="text">
+
+
+`;
+document.getElementById('hze').scrollBy(0, 200)
+            }, 13000)
+          }, 6000); // Losowe opóźnienie przed rozpoczęciem pętli "wait"
+          
+    },2000)
+  }, getRandomDelay(0, 2000)); // Losowe opóźnienie przed rozpoczęciem pętli "wait"
+}, 200 * 10); // Opóźnienie po zakończeniu ostatniej iteracji (10 * 200ms)
+}
+
+var terminalInput=0;
+setTimeout(lp,200)
+function lp(){
+  if(document.getElementById('cmd')){
+  terminalInput=document.getElementById('cmd')
+  terminalInput.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    const command = terminalInput.value;
+    if(one1==0){
+    executeCommand(command);
+    setTimeout(function (){
+    terminalInput.value = "";
+    },20)
+    one1=1;
+    setTimeout(function (){
+      one1=0
+    },100)
+    }
+  }
+  
+});
+}
+
+  requestAnimationFrame(lp)
+}
+var one1=0;
+function executeCommand(command){
+  if(command==='target'){
+    element.innerHTML += `
+<stroke style="color: lime;">[</stroke>/<stroke style="color: lime;">]</stroke> no target 
+           
+           
+`;
+  }else if (command==='?') {
+    element.innerHTML += `
+<stroke style="color: lime;">[</stroke>/<stroke style="color: lime;">]</stroke> tg [option]  [target] [-flag] [0-9]  [true/false]
+target = C,JS,Html
+flags = -c compile -d compile lang to Bsh -sy syntch -r syntax run bsh
+0-9 = code (need Better device power) defaul 0
+options = mg (compiler mgBSH)
+true = show error and log
+false = dont show log
+           
+
+tg mg Html -c 0 false
+
+compile your BshBIN proj to html script 
+`;
+    }else if (command === 'clear') {
+      element.innerHTML = `
+
+    `;
+    }else if (command === 'tg mg Html -c 0 false') {
+
+
+element.innerHTML += `
+ <stroke style="color: lime;">[</stroke>-<stroke style="color: lime;">]</stroke> Make you sure you are tested this program with no @USING < compiler > ! 
+ wait this take a moment 
+ `;
+setTimeout(function (){
+for (let i = 0; i < getRandomDelay(50, 200); i++) {
+  setTimeout(function() {
+    element.innerHTML += `
+       <stroke style="color: lime;">[</stroke>-<stroke style="color: lime;">]</stroke> Converting data to a Html code ... `;
+    element1.scrollBy(0, 20)
+}, getRandomDelay(20, 8000)); // Losowe opóźnienie w zaksie od 0 do 2000 ms
+}
+},200)
+  
+      setTimeout(function (){
+      element.textContent = `
+    
+    <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+      <!--Giga-Text-Format-->
+      
+      
+        `;
+      element.textContent += document.querySelector('#catjs').innerHTML;
+    element.textContent += `
+          
+          
+          
+          
+            <!--styles-->
+          
+          
+              `;
+              element.textContent += `<style>` + document.querySelector('.tocode').innerHTML +`
+     html {
+      position: fixed;
+      top: 0;
+      left: 0;
+      
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 1);
+      color: white;
+      overflow :hidden ;
+      font-size :23px;
+      overflow-y :auto ;
+    } 
+    *{
+      margin :0;
+    }
+    
+    
+    ` + `</style>`+`
+  <!--Cubes -->
+ <style>
+   .shape {
+     position: absolute;
+   }
+ </style>
+    `;
+      },10000)
+    }
+   else if(command==='/'){
+    element.innerHTML += `
+...
+`;
+  }
+ else if (command === 'exit') {
+    element.innerHTML += `
+  terminal mode dont have exit
+  `;
+  }else {
+    if(do1===0)
+element.innerHTML += `
+ <strong style="color: red ;" >syntax error </strong> 
+  `;
+  do1=1;
+  setTimeout(function (){
+    do1=0
+  },50)
+  }
+
+
+ }
+
+
+var do1 =0;
+  </script>
+
+
+
+
+
+
+
+
+<head>
+  <title>BshBIN / CatBin By Krystian popiołek </title>
+  <style class="tocode">
+    #catjs {
+      position: fixed;
+      top: 0;
+      left: 0;
+      
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 1);
+      color: white;
+      overflow :hidden ;
+      font-size :23px;
+      overflow-y :auto ;
+    }
+    .cont{
+      position :relative ;
+      z-index :2;
+    }
+*::-webkit-scrollbar {
+  display :none ;
+
+  height :0;
+  width :4px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #AFAFAF29;
+  display :none ;
+  width: 4px;
+  opacity: 0.1;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  display: none;
+}
+
+*::-webkit-scrollbar-track {
+  display: none;
+  height: 20px;
+}
+
+
+*::selection {
+  background-color: #00A4FF;
+}
+            .line {
+              position: absolute;
+              background: white ;
+              z-index :9;
+            }
+    *{
+    	font-family :"Courier New";
+    	
+    }
+        .tringle {
+          position :absolute ;
+          float: left;
+    overflow :visible ;
+          width: 50px;
+          height: 50px;
+          
+        /*  transform: rotate(90deg);*/
+          width: 0;
+          height: 0;
+          border-top: 15px solid transparent;
+          
+    
+          border-bottom: 15px solid transparent;
+          margin-top: 20px;
+          
+          background :none ;
+        }
+    div{
+color: #E0DFDC;
+user-select :none ;
+letter-spacing: .1em;
+/*text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);*/
+    }
+  </style>
+</head>
+<body>
+  <div id="catjs"></div>
+
+</body>
+</html>
+<script>
+
+var mon=0;
+var noend=0;
+  function Print(text) {
+    var catjsElement = document.getElementById('catjs');
+    catjsElement.innerHTML += '<div style="background-color : none;"><pre style=" position:relative ;z-index:auto; white-space:pre-wrap;" >' + text + '</pre></div>';
+  }
+  
+  function lineL(x1 , y1 , x2 , y2 ) {
+    var catjsElement = document.getElementById('catjs');
+    var lineDiv = document.createElement('div');
+    lineDiv.style.position = 'absolute';
+    lineDiv.style.left = x1 + 'px';
+    lineDiv.style.top = y1 + 'px';
+    lineDiv.style.width = Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2) + 'px';
+    lineDiv.style.height = '1px';
+    lineDiv.style.transformOrigin = 'top left';
+    lineDiv.style.transform = 'rotate(' + Math.atan2(y2 - y1, x2 - x1) + 'rad)';
+    lineDiv.style.background = 'white';
+    catjsElement.appendChild(lineDiv);
+  }
+  
+  function rlineL(x1, y1, x2, y2) {
+    var catjsElement = document.getElementById('catjs');
+    
+            var lineDiv = document.createElement('div');
+            lineDiv.className = 'line';
+
+            var width = window.innerWidth;
+            var height = window.innerHeight;
+
+            var startX = x1 * width / 100;
+            var startY = y1 * height / 100;
+            var endX = x2 * width / 100;
+            var endY = y2 * height / 100;
+
+            if (width < height) {
+                // Tryb portrait - dostosowanie konta nachylenia linii
+                var portraitEndX = startX + (endX - startX) * (height / width);
+                var portraitEndY = startY + (endY - startY) * (height / width);
+                endX = portraitEndX;
+                endY = portraitEndY;
+            }
+
+            lineDiv.style.left = startX + 'px';
+            lineDiv.style.top = startY + 'px';
+            lineDiv.style.width = (endX - startX) + 'px';
+            lineDiv.style.height = '1px';
+            lineDiv.style.transformOrigin = '0 0';
+            lineDiv.style.transform = 'rotate(' + Math.atan2(endY - startY, endX - startX) + 'rad)';
+
+           catjsElement.appendChild(lineDiv);
+        }
+
+
+
+  function cont(text) {
+  	var catjsElement = document.getElementById('catjs');
+  	catjsElement.innerHTML += '<div style="z-index:auto;background-color : none;"><pre style=" position:relative ; z-index:auto; user-select: all;  white-space:pre-wrap;" >' + text + '</pre></div>';
+  }
+  
+  function sleep(milliseconds) {
+    return new Promise(resolve => setTimeout(resolve, milliseconds));
+  }
+var sucos=0;
+  function parseCatJSFile(fileContent) {
+    
+    var lines = fileContent.split('\n');
+    var functions = {};
+    var variables = {};
+    var catjsElement = document.getElementById('catjs');
+    catjsElement.innerHTML += `&nbsp;&nbsp;&nbsp;&nbsp; <pre style="color:aqua ;  white-space:pre-wrap ;" >   
+BshBin builder
+
+    </pre><pre></pre>`;
+   
+    for (var i = 0; i < lines.length; i++) {
+      var line = lines[i].trim();
+      
+      if (sucos == 1) {
+      	if (line.startsWith('-help')) {
+      		setTimeout(function() {
+      			catjsElement.innerHTML =`
+<pre style="white-space:pre-wrap;">
+
+     <stroke style="color:lime" >Help:</stroke> 
+
+<stroke style='color:red '>=</stroke> <span style='color:purple;'></span>@USING < txt > - You can use with this:
+
+<pre style="font-size:15px; white-space:pre-wrap ;" >
+"<stroke style='color:lime'>+</stroke>" <span style='color:yellow ;'>Print("")</span> - can you write something on the screen e.g 'Print("HelloWorld")'
+"<stroke style='color:lime'>+</stroke>" <span style='color:yellow ;'>cont("")</span> - you are continue writing ...
+"<stroke style='color:lime'>+</stroke>" <span style='color:yellow ;'>in</span> - in is a function you can make function on start of your code and you put something like this
+
+	in a [
+	 Print("hi")
+	]
+
+"<stroke style='color:lime'>+</stroke>" <span style='color:yellow ;'>[functionName] out</span> - you can run the function 
+"<stroke style='color:lime'>+</stroke>" <span style='color:yellow ;'>@USING < fs ></span> - this make your code lunch in fullscreen 
+
+(!) Warning use on start of the code
+
+"<stroke style='color:lime'>+</stroke>" <span style='color:yellow ;'>Rd("")</span> - put red text on the screen this works like cont
+"<stroke style='color:lime'>+</stroke>" <span style='color:yellow ;'>Bl("")</span> - Make blue text 
+"<stroke style='color:lime'>+</stroke>" <span style='color:yellow ;'>Aqa("")</span> - make aqua text
+"<stroke style='color:lime'>+</stroke>" <span style='color:yellow ;'>@USING < ></span> - you can use plugin all plugins in the file /Plugins/js/Plugins.js/
+"<stroke style='color:lime'>+</stroke>" <span style='color:yellow ;'>sleep()</span> - time out to use next function e.g 
+
+	sleep(2)
+
+this will be for 2 seconds
+
+"<stroke style='color:lime'>+</stroke>" <span style='color:yellow ;'>Lm("")</span> - put lime text
+"<stroke style='color:lime'>+</stroke>" <span style='color:yellow ;'>DOC[]</span> - make doc more about in file /Plugins/DOC/js/DOC.md/
+</pre>
+
+
+</pre>
+      `
+      		}, 450)
+      	}
+      }
+      if (line.startsWith('@USING <bsh/void>')) {
+      	catjsElement.innerHTML =""
+      	Print("")
+      }else if (line.startsWith('@USING <compiler>')) {
+setTimeout(build , 200)
+element1.style.display = "block"
+      }else if (line.startsWith('@USING <fs>')) {
+      	document.documentElement.addEventListener("touchstart",function (){
+      		document.documentElement.requestFullscreen()
+      	})
+      }else if (line.startsWith('@USING <styles/white>')) {
+        var catjsElement = document.getElementById('catjs');
+        catjsElement.style.background="#FFF"
+        catjsElement.style.color="#000"
+      //  document.querySelector('.line').style.background ="#000"
+ // Flaga oznaczająca, czy kod został już wykonany
+
+setTimeout(function (){
+
+
+changeBackground();
+},500)
+
+      }else if (line.startsWith('@USING <Str::bin/file/help/>')) {
+      	sucos=1;
+      }else if (line.startsWith('@USING <main/bin>')) {
+      	Print("opened as tcbshy engine testing")
+      	setTimeout(function() {
+      		
+      		mon = catjsElement.innerHTML.replace(/main binary opened 101/,"") ;
+      		catjsElement.innerHTML=""
+      	}, 199)
+      	setTimeout(function (){
+      		catjsElement.innerHTML = mon;
+      	},200)
+      }else if (line.startsWith('@USING <end>')) {
+      	noend=1;
+      }else if (line.startsWith('@USING <no-console>')) {
+        
+        
+        document.getElementById('catjs').style.display ="none"
+        
+      }else if (line.startsWith('in ')) {
+        var functionName = line.substring(3, line.indexOf('[')).trim();
+        var functionBody = '';
+        i++;
+        
+        while (lines[i] !== ']' && i < lines.length) {
+          functionBody += lines[i] + '\n';
+          
+          i++;
+        }
+        functions[functionName] = new Function(functionBody); // Tworzenie funkcji w .catjs
+        console.log(functions,functionBody)
+      } else if (line.startsWith('#')) {
+        // Komentarz - ignorujemy
+        continue;
+      }else if (line.startsWith('Line(')) {
+        var text = line.substring(line.indexOf('(') + 1, line.lastIndexOf(')') );
+        const regex = /([0-9]{1,3})/g
+        const matches = text.match(regex);
+        const xstepoz = matches[0];
+        const ystepoz = matches[1];
+        const xnexpoz = matches[2];
+        const ynexpoz = matches[3];
+        console.log(text)
+        setTimeout(function (){
+         lineL(xstepoz,ystepoz,xnexpoz,ynexpoz);
+        },200)
+      }else if (line.startsWith('Trg(')) {
+        var text = line.substring(line.indexOf('(') + 1, line.lastIndexOf(')'));
+        const regex = /([0-9]{1,3})/g
+        const matches = text.match(regex);
+        const xstepoz = matches[0];
+        const ystepoz = matches[1];
+        const xnexpoz = matches[2];
+        const ynexpoz = matches[3];
+        const color = matches[4];
+        const deg = matches[5];
+        console.log(text)
+        setTimeout(function() {
+          tringleL(xstepoz, ystepoz, xnexpoz, ynexpoz, deg , color );
+        }, 200)
+      }else if (line.startsWith('rLine(')) {
+        var text = line.substring(line.indexOf('(') + 1, line.lastIndexOf(')'));
+        const regex = /([0-9]{1,3})/g
+        const matches = text.match(regex);
+        const xstepoz = matches[0];
+        const ystepoz = matches[1];
+        const xnexpoz = matches[2];
+        const ynexpoz = matches[3];
+        console.log(text)
+        setTimeout(function() {
+          rlineL(xstepoz, ystepoz, xnexpoz, ynexpoz);
+        }, 200)
+      }else if (line.startsWith('Box(')) {
+        var text = line.substring(line.indexOf('(') + 1, line.lastIndexOf(')'));
+        const regex = /([0-9]{1,3})/g
+        const matches = text.match(regex);
+        const xstepoz = matches[0];
+        const ystepoz = matches[1];
+        const xnexpoz = matches[2];
+        const ynexpoz = matches[3];
+        const color = matches[4];
+        console.log(text)
+        setTimeout(function() {
+          BoxL(xstepoz, ystepoz, xnexpoz, ynexpoz , color);
+        }, 200)
+      }else if (line.startsWith('rBox(')) {
+        var text = line.substring(line.indexOf('(') + 1, line.lastIndexOf(')'));
+        const regex = /([0-9]{1,3})/g
+        const matches = text.match(regex);
+        const xstepoz = matches[0];
+        const ystepoz = matches[1];
+        const xnexpoz = matches[2];
+        const ynexpoz = matches[3];
+        const color = matches[4];
+        console.log(text)
+        setTimeout(function() {
+          rBoxL(xstepoz, ystepoz, xnexpoz, ynexpoz, color);
+        }, 200)
+      }else if (line.startsWith('Circle(')) {
+        var text = line.substring(line.indexOf('(') + 1, line.lastIndexOf(')'));
+        const regex = /([0-9]{1,3})/g
+        const matches = text.match(regex);
+        const xstepoz = matches[0];
+        const ystepoz = matches[1];
+        const xnexpoz = matches[2];
+        const ynexpoz = matches[3];
+        const color = matches[4];
+        console.log(text)
+        setTimeout(function() {
+          CircleL(xstepoz, ystepoz, xnexpoz, ynexpoz, color);
+        }, 200)
+      }else if (line.startsWith('rCircle(')) {
+        var text = line.substring(line.indexOf('(') + 1, line.lastIndexOf(')'));
+        const regex = /([0-9]{1,3})/g
+        const matches = text.match(regex);
+        const xstepoz = matches[0];
+        const ystepoz = matches[1];
+        const xnexpoz = matches[2];
+        const ynexpoz = matches[3];
+        const color = matches[4];
+        console.log(text)
+        setTimeout(function() {
+          rCircleL(xstepoz, ystepoz, xnexpoz, ynexpoz, color);
+        }, 200)
+      }else if (line.startsWith('$~Console')) {
+        document.getElementById('window12').style.display="block"
+      } else if (line.startsWith('Print(')) {
+        var text = line.substring(line.indexOf('(') + 2, line.lastIndexOf(')') - 1);
+        Print(text);
+      }else if (line.startsWith('Title[')) {
+        var texT = line.substring(line.indexOf('[') + 2, line.lastIndexOf(']') - 1);
+        setTimeout(function (){
+          document.querySelector('title').textContent =texT;
+        },1000)
+      }else if (line.startsWith('cont(')) {
+      	var text = line.substring(line.indexOf('(') + 2, line.lastIndexOf(')') - 1);
+      	cont(text);
+      } else if (line.startsWith('sscrios')) {
+      	
+      	Print("")
+      	Print("Dodam @using ")
+      	Print("sleep(2) , wykonanie funkcji w funkcji")
+      	cont(`
+      	     ▶️ 	`);
+       Print("lepsze sortowanie algorytmów ")
+       Print("brajki break")
+       Print("przedewszystkim dodam if będzie działać tak np ")
+       Print("on a=200")
+       Print("# something in if #")
+       Print("goto")
+       Print("")
+       Print("Dodam 5 komend funkcyjnych  1. fullscreen -l    2.sup -l    3.test -l")
+      } else if (line.endsWith(' out')) {
+        var functionName = line.substring(0, line.length - 4);
+        if (functions.hasOwnProperty(functionName)) {
+          functions[functionName](); // Wywołanie funkcji zdefiniowanej w .catjs
+          
+        } else {
+          console.log('Błąd: Funkcja ' + functionName + ' nie jest zdefiniowana.');
+          
+          var catjsElement = document.getElementById('catjs');
+	catjsElement.innerHTML += `&nbsp;&nbsp;&nbsp;&nbsp; <pre style="color:yellow ;  white-space:pre-wrap ;" >   Przykro mi ale nie masz uprawnien do 
+	urzycia tej funkcji 
+	Bądź funkcja nie została zdefinoiwana
+	
+	
+	</pre><pre>
+	        	
+	        </pre>`;
+        }
+      } else if (line.startsWith('int')) {
+        var variableName = line.substring(4, line.indexOf('=')).trim();
+        var variableValue = line.substring(line.indexOf('=') + 1).trim();
+        
+        variables[variableName] = variableValue;
+        console.log(variables)
+      } else if (line.startsWith('if')) {
+        var condition = line.substring(line.indexOf('(') + 1, line.indexOf(')')).trim();
+        var statement = line.substring(line.indexOf('{') + 1, line.lastIndexOf('}')).trim();
+        if (eval(condition)) {
+          eval(statement);
+        }
+        
+      } else {
+        var catjsElement = document.getElementById('catjs');
+        catjsElement.innerHTML += '<br>&nbsp;&nbsp;&nbsp;<pre style="color:red" > ' + `  ^ ~  ~ Unknown command there
+    
+   Find mode:</pre>&nbsp;&nbsp;&nbsp;&nbsp; <pre style="color:gray; font-size:10px; white-space:pre-wrap ;" >   `+ lines +`</pre><pre>
+        	
+        </pre>`;
+      }
+    }
+
+    for (var variable in variables) {
+      if (variables.hasOwnProperty(variable)) {
+        var value = variables[variable];
+        if (!isNaN(parseFloat(value))) {
+        //  Print('<br><br> <p style="color:gray" >&nbsp;&nbsp;&nbsp;&nbsp;'+ variable + ' = ' + value);
+        } else {
+          Print(variable + ' = ' + eval(value));
+        }
+      }
+    }
+  }
+var noerror=0;
+setTimeout(function (){
+  fetch('BshBIN')
+    .then(response => response.text())
+    .then(data => parseCatJSFile(data))
+    .catch(error => {
+    	console.log('Błąd: Nie można odczytać pliku.', error )
+    	var catjsElement = document.getElementById('catjs');
+    	catjsElement.innerHTML += '<br>&nbsp;&nbsp;&nbsp;<pre style="color:red" > ' + `  ^ ~~ Unknown error generated here
+    	    
+  Type err:</pre>&<pre style="color:gray; white-space:pre-wrap ;" >  `  + `syntax error</pre><pre>
+    	        	
+    	        </pre>`;
+    	noerror=1;
+    }
+    );
+},1000)
+setTimeout(function (){
+	if(noerror==0){
+	var catjsElement = document.getElementById('catjs');
+	if(noend===0){
+	catjsElement.innerHTML += `&nbsp;&nbsp;&nbsp;&nbsp; <pre style="color:lime;  white-space:pre-wrap ;" >   Exit code 1; No error  </pre><pre>
+	        	
+	        </pre>`;
+	}
+	}
+},1000)
+</script>
+
+
+
+
+
+
+
+
+
+
+  <!--  Plugins -->
+  
+    <!-- SHAPES -->
+<script>
+          function rBoxL(x1, y1, x2, y2, colorCode) {
+            
+            var shapeDiv = document.createElement('div');
+            shapeDiv.className = 'shape';
+            shapeDiv.style.left = x1 + 'vw';
+            shapeDiv.style.top = y1 + 'vh';
+            shapeDiv.style.width = (x2 - x1) + 'vw';
+            shapeDiv.style.height = (y2 - y1) + 'vh';
+            shapeDiv.style.backgroundColor = analyzeColorCode(colorCode);
+  var catjsElement = document.getElementById('catjs');
+  catjsElement.appendChild(shapeDiv);
+          }
+  
+          function rCircleL(x1, y1, x2, y2, colorCode, fill) {
+            var shapeDiv = document.createElement('div');
+            shapeDiv.className = 'shape';
+            shapeDiv.style.left = x1 + 'vw';
+            shapeDiv.style.top = y1 + 'vh';
+            shapeDiv.style.width = (x2 - x1) + 'vw';
+            shapeDiv.style.height = (y2 - y1) + 'vh';
+            shapeDiv.style.borderRadius = '50%';
+            shapeDiv.style.backgroundColor = analyzeColorCode(colorCode);
+  
+            if (fill) {
+              shapeDiv.style.border = 'none';
+            } else {
+              shapeDiv.style.border = '1px solid ' + analyzeColorCode(colorCode);
+            }
+  
+            var catjsElement = document.getElementById('catjs');
+            catjsElement.appendChild(shapeDiv);
+          }
+  
+          function BoxL(x1, y1, x2, y2, colorCode) {
+            var shapeDiv = document.createElement('div');
+            shapeDiv.className = 'shape';
+            shapeDiv.style.left = x1 + 'px';
+            shapeDiv.style.top = y1 + 'px';
+            shapeDiv.style.width = (x2 - x1) + 'px';
+            shapeDiv.style.height = (y2 - y1) + 'px';
+            shapeDiv.style.backgroundColor = analyzeColorCode(colorCode);
+  
+            var catjsElement = document.getElementById('catjs');
+            catjsElement.appendChild(shapeDiv);
+          }
+  function tringleL(x1, y1, x2, y2, deg , colorCode) {
+    var shapeDiv = document.createElement('div');
+    shapeDiv.className = 'tringle';
+    shapeDiv.style.rotate = ''+ deg  +'deg';
+    shapeDiv.style.left = x1 + 'px';
+    shapeDiv.style.top = y1 + 'px';
+    shapeDiv.style.width = 0 + 'px';
+    shapeDiv.style.height =  0 + 'px';
+    shapeDiv.style.borderRight =  ( y2 - y1  )  + 'px solid ' + analyzeColorCode(colorCode);
+  shapeDiv.style.borderBottom = ( y2 - y1 ) / 2 + 'px solid ' + 'transparent';
+  shapeDiv.style.borderTop = ( y2 - y1 ) / 2 + 'px solid ' + 'transparent';
+    var catjsElement = document.getElementById('catjs');
+    catjsElement.appendChild(shapeDiv);
+  }
+          function CircleL(x1, y1, x2, y2, colorCode, fill) {
+            var shapeDiv = document.createElement('div');
+            shapeDiv.className = 'shape';
+            shapeDiv.style.left = x1 + 'px';
+            shapeDiv.style.top = y1 + 'px';
+            shapeDiv.style.width = (x2 - x1) + 'px';
+            shapeDiv.style.height = (y2 - y1) + 'px';
+            shapeDiv.style.borderRadius = '50%';
+            shapeDiv.style.backgroundColor = analyzeColorCode(colorCode);
+  
+            if (fill) {
+              shapeDiv.style.border = 'none';
+            } else {
+              shapeDiv.style.border = '1px solid ' + analyzeColorCode(colorCode);
+            }
+  
+            var catjsElement = document.getElementById('catjs');
+            catjsElement.appendChild(shapeDiv);
+          }
+  
+          function analyzeColorCode(colorCode) {
+  var color;
+  
+  if (colorCode >= 0 && colorCode <= 20) {
+    // Czarny do czerwonych odcieni
+    var red = 0;
+    var green = 0;
+    var blue = colorCode * 12;
+    color = 'rgb(' + red + ',' + green + ',' + blue + ')';
+  } else if (colorCode > 20 && colorCode <= 40) {
+    // Czerwony do fioletowych odcieni
+    var red = (colorCode - 20) * 12;
+    var green = 0;
+    var blue = (40 - colorCode) * 12;
+    color = 'rgb(' + red + ',' + green + ',' + blue + ')';
+  } else if (colorCode > 40 && colorCode <= 60) {
+    // Fioletowy do niebieskich odcieni
+    var red = 240 - (colorCode - 40) * 12;
+    var green = 0;
+    var blue = (colorCode - 40) * 12;
+    color = 'rgb(' + red + ',' + green + ',' + blue + ')';
+  } else if (colorCode > 60 && colorCode <= 80) {
+    // Niebieski do żółtych odcieni
+    var red = 0;
+    var green = (colorCode - 60) * 12;
+    var blue = 240 - (colorCode - 60) * 12;
+    color = 'rgb(' + red + ',' + green + ',' + blue + ')';
+  } else if (colorCode > 80 && colorCode <= 100) {
+    // Żółty do zielonych odcieni
+    
+
+
+if (colorCode >= 80 && colorCode <= 90 ) {
+  red = 205;
+  green = (colorCode ) * 2;
+  blue = 0;
+}else if (colorCode > 90 ) {
+  red = (colorCode - 90) * 12;
+  green = 240 - (colorCode - 90) * 12;
+  blue = 0;
+}
+
+ color = 'rgb(' + red + ',' + green + ',' + blue + ')';
+
+  } else if (colorCode > 100 && colorCode <= 255) {
+    // Jasne odcienie do białego
+    var value = Math.round((colorCode - 100) / 155 * 255);
+    color = 'rgb(' + value + ',' + value + ',' + value + ')';
+  } else if (colorCode > 255 && colorCode <= 270) {
+    // Szary do czarnego odcieni
+    var value = Math.round((270 - colorCode) / 15 * 255);
+    color = 'rgb(' + value + ',' + value + ',' + value + ')';
+  } else {
+    // Domyślny kolor czarny
+    color = 'rgb(0, 0, 0)';
+    
+    var red = (colorCode - 260 >> 5) * 7;
+    var green = ((colorCode -260 >> 2) & 0x07) * 34;
+    var blue = (colorCode -260 & 0x03)* 85;
+    
+    color = 'rgb(' + red + ',' + green + ',' + blue + ')';
+  }
+  
+  return color;
+}
+
+
+//
+//    Poprzednia paleta
+//
+//
+
+
+
+
+/*
+
+          function analyzeColorCode(colorCode) {
+            var color;
+  
+            // Obliczanie składowych RGB na podstawie kodu koloru
+            var red = (colorCode >> 5) * 36;
+            var green = ((colorCode >> 2) & 0x07) * 36;
+            var blue = (colorCode & 0x03) * 85;
+  
+            color = 'rgb(' + red + ',' + green + ',' + blue + ')';
+  
+            return color;
+          }
+ 
+ */
+
+
+
+
+
+
+
+
+  
+  setTimeout(function (){
+    
+       rBoxL(0,0,100,100,0)
+document.getElementById('catjs').innerHTML += '<img src="./start.png" style="position:absolute ; overflow:hidden ; touch-action :none ;transform:translate(-50%,-50%); left: 50vw; top:50vh;width :1500px; height :1500px" alt="./start.png">'
+  },0)
+</script>
+ <style>
+   .shape {
+     position: absolute;
+   }
+ </style>
+ 
+ <script>
+ var executed = false;
+   function changeBackground() {
+     if (!executed) {
+       console.log("hi")
+       var elements = document.querySelectorAll('div');
+   
+       for (var i = 0; i < elements.length; i++) {
+         elements[i].style.background = 'black'; // Tutaj możesz zmienić na dowolny inny kolor
+         console.log('lol')
+       }
+   
+       executed = true; // Ustawienie flagi na true, aby kod nie został wykonany ponownie
+     }
+   }
+ </script>
