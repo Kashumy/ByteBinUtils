@@ -1,32 +1,47 @@
 # ByteBinUtils
-- `experimental progrming language` 
+ByteBinUtils is an experimental programming language for handling binary data.
+
 ## Clone
 
-````
-git clone https://github.com/Kashumy/ByteBinUtils/tree/main
-````
+```bash
+git clone https://github.com/Kashumy/ByteBinUtils.git
+```
+
+## BshBin Output
+
+You can visit the starter page for BshBin at:
+
+- [BshBin Hello Geometry Page #1](https://kashumy.github.io/ByteBinUtils/)
+
+## Discussion
+
+If you have any bugs, questions, or ideas, you can join the discussion on our GitHub page:
+
+- [BshBinUtils Discussion (#1)](https://github.com/Kashumy/ByteBinUtils/discussions/2)
+
+## License
+
+BshBin Development of Experiments License:
+
+I hereby grant permission to anyone interested in modifying 
+and using the source code of BshBin without the need to credit the author (myself). However, in exchange for this freedom, I 
+require that all users of this code actively participate in the development of the BshBin project and help promote its growth.
+This means that if you modify or use the BshBin code, you must prominently include the name "BshBin" in your project or mention it in the project's description, documentation, or other appropriate places.
+Additionally, I strongly encourage everyone who uses the BshBin code to collaborate with the BshBin community by submitting their changes, fixes, and providing support to further enhance the project.
+This commitment and cooperation are crucial for the success and continuous development of BshBin. 
+Please note that the BshBin Grow Your Wings license does not apply to external resources, libraries, 
+or other elements used in the BshBin project.
+It only covers the source code of BshBin itself. 
+Any content you create using BshBin may be subject to your own copyright. 
+I wish you fruitful work and I'm excited to contribute to the development of BshBin together!
+
+## Special Thanks
+
+A special thanks to all the users who have contributed to ByteBinUtils. Your support is greatly appreciated!
+
+[Krystian/kashumy.github.io]
 
 
-BshBin output 
-
-
-> https://kashumy.github.io/ByteBinUtils/   <- starter page BshBin
-
-📜discusion
-
-> https://github.com/Kashumy/ByteBinUtils/discussions/2  <- bugs , join , question , concept 
 
 
 
-🧾  License BshBin development of experiments 
-
-I hereby allow anyone interested to modify and use the source code of the BshBin product without having to credit the author (in this case, me). However, in exchange for this freedom, I require that all users of this code get involved in the development of the BshBin project and help it spread its wings. In practice, this means that if you modify or use the BshBin code, you must include the name "BshBin" prominently in your project or mention BshBin in the description, documentation or other appropriate places. In addition, I encourage everyone who uses the BshBin code to collaborate with the BshBin community by submitting their changes, fixes and providing support to further develop this project. It is this commitment and cooperation that are crucial for BshBin's success and continued development. Remember that the BshBin Grow Your Wings license does not apply to external resources, libraries or other elements used in the BshBin project. It only includes the source code of BshBin itself. And anything you write in BshBin may be subject to your copyright. I wish you fruitful work and I am glad that we can contribute to the development of BshBin together! 
-
-
-[Christian/kashumy.github.io]
-
-
-
-all specjal thanks for users will be here :
-````
-````
