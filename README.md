@@ -33,7 +33,7 @@ You can visit the starter page for BshBin at:
 
 If you have any bugs, questions, or ideas, you can join the discussion on our GitHub page:
 
-- [BshBinUtils Discussion (#1)](https://github.com/Kashumy/ByteBinUtils/discussions/2)
+- [BshBinUtils Discussion (#1)](https://github.com/Kashumy/ByteBinUtils/discussions/1)
 
 ## License
 
